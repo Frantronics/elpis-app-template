@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="frantronicsdevelopment.frank.com.elpisapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+   <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityElpisWebPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShowVideo" />
+        <activity
+            android:name=".MediaPlayerActivity_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MediaPlayerActivity_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MediaPlayerActivity_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MediaPlayerActivity_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeachingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MusicPlatforms"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

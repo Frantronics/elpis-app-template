@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_black"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Media" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Events" />
+    </group>
+<item android:title="About us">
+<menu>
+    <item
+        android:id="@+id/nav_history"
+        android:title="History"
+        android:icon="@drawable/info_black"/>
+    <item
+        android:id="@+id/nav_who_we_are"
+        android:title="Who We Are" />
+
+    <item
+        android:id="@+id/nav_mission_and_vision"
+        android:title="Mission And Vision" />
+
+    <item
+        android:id="@+id/nav_pledge_of_excellence"
+        android:title="Pledge Of Excellence" />
+</menu>
+</item>
+
+</menu>

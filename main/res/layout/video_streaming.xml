@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#1E90FF"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageButton
+            android:id="@+id/youTubeBckBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E90FF"
+            android:src="@drawable/back_white"></ImageButton>
+    </android.support.v7.widget.Toolbar>
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#1E90FF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:text="Play" />
+
+</LinearLayout>
